@@ -1,21 +1,17 @@
-/* .storesGrid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
+h1 {
+    text-align: center; 
+    margin-top: 30px; 
+    padding-top: 10px;
+    font-size: 45px; 
+    color: #333;
 }
-
-.storeItem{
-    background-color: cadetblue;
-} */
 
 .storesGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
-    grid-gap: 20px;
-    padding: 20px;
+    grid-gap: 25px;
+    padding: 15px;
 }
 
 .storeItem {

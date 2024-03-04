@@ -14,7 +14,7 @@ fetch('http://localhost:3000/stores/all')
         const storeName=document.createTextNode(store.name)
 
         const gridPlace=document.createElement("p")
-        const storePlace=document.createTextNode(store.district)
+        const storePlace=document.createTextNode("District" + ":" + " "+  store.district)
 
 //store name text
         grid.appendChild(gridElement)
